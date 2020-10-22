@@ -21,3 +21,5 @@ def list_dwarves(array)
 
   end
 end
+
+list_dwarves(dwarves_array)
