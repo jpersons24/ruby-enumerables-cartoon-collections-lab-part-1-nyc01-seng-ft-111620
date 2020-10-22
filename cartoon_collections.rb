@@ -7,16 +7,16 @@ def greet_characters(array)
   end
 end
 
-dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
+# dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  array.each_with_index do |item, index|
-    puts "#{index + 1}. #{item}"
+  array.each_with_index do |item, index| # each_with_index enumerates over given array using two arguments |object, index|
+    puts "#{index + 1}. #{item}" # puts index + 1 and item in a string to create a list
 
   end
 end
 
-list_dwarves(dwarves_array)
+# list_dwarves(dwarves_array)
